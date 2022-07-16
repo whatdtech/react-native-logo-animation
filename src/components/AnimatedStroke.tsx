@@ -21,12 +21,12 @@ const AnimatedStroke = ({
   const [length, setLength] = React.useState(0);
   const animatedProps = useAnimatedProps(() => ({
     strokeDashoffset:
-      length - length * Easing.bezier(0.37, 0, 0.63, 1)(progress.value),
+      length - length * Easing.bezierFn(0.37, 0, 0.63, 1)(progress.value),
   }));
 
   const animatedBGProps = useAnimatedProps(() => ({
     strokeDashoffset:
-      length - length * Easing.bezier(0.61, 1, 0.88, 1)(progress.value),
+      length - length * Easing.bezierFn(0.61, 1, 0.88, 1)(progress.value),
     fillOpacity: progress.value,
   }));
 
