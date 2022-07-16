@@ -1,3 +1,5 @@
+
+updated bezier function for reanimated latest version 2.9 and react-native .68.2 compatability
 # react-native-logo-animation
 
 React Native Logo Animation
@@ -25,8 +27,8 @@ yarn add react-native-logo-animation
 ###### IMPORTANT! You need install them
 
 ```JSON
-"react-native-reanimated": ">=2.0.0-alpha.9.2",
-"react-native-svg": ">=0.9.1"
+"react-native-reanimated": "^2.9.1",
+"react-native-svg": "^12.4.0"
 ```
 
 # Usage
